@@ -1,0 +1,47 @@
+/* Common Shared Style */
+
+body {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .text-primary{
+        color: #FD6E0A;
+  }
+  .btn-primary{
+    background: #FD6E0A;
+    border-radius: 5px;
+  }
+
+/* Navigation Bar Related Style */
+
+nav{
+    display: flex;
+}
+
+.nav-title{
+    
+
+
+font-size: 45px;
+line-height: 61px;
+
+/* Dark 01 */
+color: #181818;
+}
+
+nav > ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 52px;
+}
+
+nav a{
+    text-decoration: none;
+    color:#474747
+}
+
