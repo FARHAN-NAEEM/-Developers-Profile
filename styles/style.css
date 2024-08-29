@@ -12,27 +12,37 @@ body {
   .btn-primary{
     background: #FD6E0A;
     border-radius: 5px;
+    border: 0;
+
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    /* White Color */
+    color: #FFFFFF;
+    padding: 16px 35px;
   }
 
 /* Navigation Bar Related Style */
 
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .nav-title{
-    
-
-
-font-size: 45px;
-line-height: 61px;
-
-/* Dark 01 */
-color: #181818;
+    font-size: 45px;
+    line-height: 61px;
+    /* Dark 01 */
+    color: #181818;
 }
 
 nav > ul{
     display: flex;
+    align-items: center;
+
 }
 
 nav li{
