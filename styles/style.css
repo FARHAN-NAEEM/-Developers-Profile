@@ -146,7 +146,12 @@ main{
     margin-top: 0px;
 }
 
+/* Skills Related Style*/
 #What-I-Do-Description{
     padding: 30px 150px;
+}
+
+.skills-container{
+    display: flex;
 }
 
